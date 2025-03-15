@@ -10,6 +10,7 @@ import Testimonial1 from '../Components/Testimonial/Testimonial1';
 import Pricing1 from '../Components/Pricing/Pricing1';
 import Process from '../Components/Process/Process';
 import Blog3 from '../Components/Blog/Blog3';
+import Project2 from '../Components/Project/Project2';
 
 const page = () => {
     return (
@@ -39,23 +40,24 @@ const page = () => {
             ></About1> 
             <Services1></Services1>   
             <Choose1
-                img1="/assets/img/feature_img_1.jpg"
-                content="Squeaking, grinding noises, or a spongy brake pedal are car common indicators that your brakes need attention Slow an  engine cranking."
+                img1="/assets/img/Door1.jpg"
+                content="We use high-grade, eco-friendly materials to craft doors that offer exceptional durability, security, and style. Each door undergoes rigorous quality control to meet international standards while maintaining an elegant finish."
                 btnName="Read more"
                 btnUrl="/about"
-                img2="/assets/img/feature_img_2.jpg"
-                img3="/assets/img/feature_img_3.jpg"
+                img2="/assets/img/Door2.jpg"
+                img3="/assets/img/Door3.jpg"
             ></Choose1> 
             <BeforeAfter 
                 title="Recent Completed Projects"
                 subTitle="Before & after"
                 bgImg="/assets/img/before_after_bg_1.svg"
-                beforeImg="/assets/img/after_img_1.jpg"
+                beforeImg="/assets/img/oldDoor.jpg"
                 afterTitle="After"
-                afterImg="/assets/img/before_img_1.jpg"
+                afterImg="/assets/img/newDoor.jpg"
                 beforeTitle="Before"
             ></BeforeAfter> 
-            <Project1></Project1> 
+           <Project2></Project2> 
+          
             <Contact1
                 Title="Contact Information"
                 subTitle="It is a long established fact that a reader be by the readable distracted  layout."
