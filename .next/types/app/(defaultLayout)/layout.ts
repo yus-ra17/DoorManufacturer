@@ -1,4 +1,4 @@
-// File: C:\Users\Engu Computer\Downloads\Telegram Desktop\Door\door_manufacturer\src\app\(defaultLayout)\layout.jsx
+// File: C:\Users\HP\Desktop\DoorManufacturer\src\app\(defaultLayout)\layout.jsx
 import * as entry from '../../../../src/app/(defaultLayout)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

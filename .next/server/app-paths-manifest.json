@@ -1,3 +1,5 @@
 {
-  "/(defaultLayout)/page": "app/(defaultLayout)/page.js"
+  "/(defaultLayout)/page": "app/(defaultLayout)/page.js",
+  "/(defaultLayout)/project/page": "app/(defaultLayout)/project/page.js",
+  "/home2/page": "app/home2/page.js"
 }
