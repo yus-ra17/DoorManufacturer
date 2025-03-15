@@ -16,10 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(defaultLayout)/page.js"
     ],
-    "/(defaultLayout)/about/page": [
+    "/(defaultLayout)/service/service-details/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(defaultLayout)/about/page.js"
+      "static/chunks/app/(defaultLayout)/service/service-details/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

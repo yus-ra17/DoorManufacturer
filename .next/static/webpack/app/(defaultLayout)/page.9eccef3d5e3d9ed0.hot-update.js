@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/(defaultLayout)/page",{
+
+/***/ "(app-pages-browser)/./src/app/Data/services1.json":
+/*!*************************************!*\
+  !*** ./src/app/Data/services1.json ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = /*#__PURE__*/JSON.parse('[{"img":"/assets/img/service_img_1.jpg","icon":"/assets/img/icons/service_icon_1.svg","title":"Door Safety Inspection","desc":"If your door is becoming difficult to open, showing signs of wear, or struggling to lock properly, it may be time for a safety inspection.","btnText":"READ MORE","btnLink":"/service/service-details"},{"img":"/assets/img/service_img_2.jpg","icon":"/assets/img/icons/service_icon_2.svg","title":"Door Insulation & Protection","desc":"Proper insulation and sealing are essential for energy efficiency. We also offer weatherproofing services to prevent damage from harsh conditions, ensuring your door stays in top condition.","btnText":"READ MORE","btnLink":"/service/service-details"},{"img":"/assets/img/service_img_3.jpg","icon":"/assets/img/icons/service_icon_3.svg","title":"Battery Boost Check","desc":"If your check battery light comes on it\'s best to schedule a diagnostic service as soon as possible to identify address","btnText":"READ MORE","btnLink":"/service/service-details"},{"img":"/assets/img/service_img_7.jpg","icon":"/assets/img/icons/service_icon_6.svg","title":"Brake Safe Inspection","desc":"If your car struggles to start the lights dim when idling or the battery over three years old it may be time","btnText":"READ MORE","btnLink":"/service/service-details"},{"img":"/assets/img/service_img_5.jpg","icon":"/assets/img/icons/service_icon_4.svg","title":"Engine Tune-Up Plus","desc":"Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage If your check battery","btnText":"READ MORE","btnLink":"/service/service-details"},{"img":"/assets/img/service_img_6.jpg","icon":"/assets/img/icons/service_icon_5.svg","title":"Battery Boost Check","desc":"If your check battery light comes on it\'s best to schedule a diagnostic service as soon as possible to identify address","btnText":"READ MORE","btnLink":"/service/service-details"}]');
+
+/***/ })
+
+});
