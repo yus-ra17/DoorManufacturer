@@ -25,14 +25,14 @@ const page = () => {
         expTitle="Experience"
         number="(208) 555-0112"
         subTitle="Our About"
-        Title="Speedy Repairs Quality Results"
-        Content="We are professional and committed to service is a statement that highlights the companys professionalism and dedication to providing"
-        feature1="Express Oil Change"
-        feature2="Quick Fix Tire Rotation"
+        Title="Precision Craft, Timely Delivery"
+        Content="We are professional and committed to delivering high-quality doors with precision and efficiency, ensuring the best results for every project."
+        feature1="Custom Door Solutions"
+        feature2="Durable, Secure Door Installations"
         listItem={[
-          "Driving Quality, Ensuring Safety Every Car",
-          "Comprehensive Diagnostic Check",
-          "We Know Your Car Inside Out",
+          "Crafting Doors that Stand the Test of Time",
+          "Comprehensive Door Services",
+          "We Understand Every Detail of Your Door Needs",
         ]}
         avatar="/assets/img/avatar_1.png"
         name="Ronald Richards"
