@@ -11,6 +11,8 @@ import Pricing1 from '../Components/Pricing/Pricing1';
 import Process from '../Components/Process/Process';
 import Blog3 from '../Components/Blog/Blog3';
 import Project2 from '../Components/Project/Project2';
+import AboutCompany from '../Components/AboutCompany/AboutCompany';
+import Counter1 from '../Components/Counter/Counter1';
 
 const page = () => {
     return (
@@ -47,13 +49,15 @@ const page = () => {
                 img2="/assets/img/Door2.jpg"
                 img3="/assets/img/Door3.jpg"
             ></Choose1> 
+            <AboutCompany></AboutCompany>
+
             <BeforeAfter 
                 title="Recent Completed Projects"
                 subTitle="Before & after"
                 bgImg="/assets/img/before_after_bg_1.svg"
-                beforeImg="/assets/img/oldDoor.jpg"
+                beforeImg="/assets/img/afterDoor.jpg"
                 afterTitle="After"
-                afterImg="/assets/img/newDoor.jpg"
+                afterImg="/assets/img/beforDoor.jpg"
                 beforeTitle="Before"
             ></BeforeAfter> 
            <Project2></Project2> 

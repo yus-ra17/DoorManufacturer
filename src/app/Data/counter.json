@@ -1,22 +1,23 @@
 [
   { 
+ 
     "img": "/assets/img/icons/counter_icon_1.svg",
-    "title": "260 +",
-    "desc": "Satisfied Clients"
+    "title": "Eco-Friendly",
+    "desc": "Sustainable materials"
   },
   {
     "img": "/assets/img/icons/counter_icon_2.svg",
-    "title": "456 +",
-    "desc": "Transparency"
+    "title": "Soundproof",
+    "desc": "Noise reduction tech"
   },
   {
     "img": "assets/img/icons/counter_icon_3.svg",
-    "title": "399 +",
-    "desc": "Project Done"
+    "title": "Fire Safe",
+    "desc": "Retardant materials"
   },  
   {
     "img": "assets/img/icons/counter_icon_4.svg",
-    "title": "125 +",
-    "desc": "Get Awards"
+    "title": "Durable",
+    "desc": "10-year warranty"
   }
 ]

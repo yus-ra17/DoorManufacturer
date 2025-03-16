@@ -38,9 +38,9 @@ const Counter1 = () => {
                 <Image src={item.img} alt="img" width={50} height={51}   />
                 </div>
                 <div className="cs_iconbox_info">
-                  <h3 className="cs_iconbox_number cs_fs_36 cs_white_color cs_mb_2">
+                  <h4 className="cs_iconbox_number cs_fs_36 cs_white_color cs_mb_2">
                     <span>{item.title}</span>
-                  </h3>
+                  </h4>
                   <p className="cs_white_color mb-0">{item.desc}</p>
                 </div>
               </div>
