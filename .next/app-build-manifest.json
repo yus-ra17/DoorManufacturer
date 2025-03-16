@@ -15,6 +15,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(defaultLayout)/page.js"
+    ],
+    "/(defaultLayout)/service/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(defaultLayout)/service/page.js"
+    ],
+    "/(defaultLayout)/service/service-details/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(defaultLayout)/service/service-details/page.js"
+    ],
+    "/(defaultLayout)/project/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(defaultLayout)/project/page.js"
+    ],
+    "/(defaultLayout)/project/project-details/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(defaultLayout)/project/project-details/page.js"
     ]
   }
 }

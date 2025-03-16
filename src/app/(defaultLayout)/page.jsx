@@ -15,7 +15,7 @@ import HeroBanner2 from "../Components/HeroBanner/HeroBanner2";
 const page = () => {
   return (
     <div>
-      <HeroBanner2></HeroBanner2>
+      <HeroBanner1></HeroBanner1>
       <About1
         img1="/assets/img/about_img_1.jpg"
         img2="/assets/img/about_img_2.jpg"
@@ -74,7 +74,7 @@ const page = () => {
         title="What our clients say <br> About Us"
         bgImg="/assets/img/testimonial_bg_1.jpg"
       ></Testimonial1>
-      <Pricing1></Pricing1>
+      {/* <Pricing1></Pricing1> */}
       <Process></Process>
       <Blog3></Blog3>
     </div>
