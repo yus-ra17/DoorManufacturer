@@ -4,8 +4,9 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import VideoModal from "../VideoModal/VideoModal";
 import Link from "next/link";
 
+
 const HeroBanner2 = ({
-  bgimg = "/public/assets/img/door.jpg",
+  bgimg,
   subtitle,
   title,
   conetnt,
