@@ -11,7 +11,8 @@ import Pricing1 from "../Components/Pricing/Pricing1";
 import Process from "../Components/Process/Process";
 import Blog3 from "../Components/Blog/Blog3";
 import HeroBanner2 from "../Components/HeroBanner/HeroBanner2";
-import Testimonial2 from "../Components/Testimonial/Testimonial2"
+import Testimonial2 from "../Components/Testimonial/Testimonial2";
+import AboutCompany from "../Components/AboutCompany/AboutCompany";
 
 const page = () => {
   return (
@@ -41,24 +42,25 @@ const page = () => {
       ></About1>
       {/* <Services1></Services1> */}
       <Choose1
-        img1="/assets/img/feature_img_1.jpg"
-        content="Squeaking, grinding noises, or a spongy brake pedal are car common indicators that your brakes need attention Slow an  engine cranking."
+        img1="/assets/img/Door1.jpg"
+        content="We use high-grade, eco-friendly materials to craft doors that offer exceptional durability, security, and style. Each door undergoes rigorous quality control to meet international standards while maintaining an elegant finish."
         btnName="Read more"
         btnUrl="/about"
-        img2="/assets/img/feature_img_2.jpg"
-        img3="/assets/img/feature_img_3.jpg"
+        img2="/assets/img/Door22.jpg"
+        img3="/assets/img/Door33.jpg"
       ></Choose1>
+      <AboutCompany></AboutCompany>
       <BeforeAfter
         title="Recent Completed Projects"
         subTitle="Before & after"
-        bgImg="/assets/img/before_after_bg_1.svg"
-        beforeImg="/assets/img/after_img_1.jpg"
+        bgImg="/assets/img/before_after_bg_1.jpg"
+        beforeImg="/assets/img/afterDoor.jpg"
         afterTitle="After"
-        afterImg="/assets/img/before_img_1.jpg"
+        afterImg="/assets/img/beforDoor.jpg"
         beforeTitle="Before"
       ></BeforeAfter>
-      <Project1></Project1>
-      <Contact1
+      {/* <Project1></Project1> */}
+      {/* <Contact1
         Title="Contact Information"
         subTitle="It is a long established fact that a reader be by the readable distracted  layout."
         address="2972 Westheimer Rd. <br/>Santa Ana, Illinois 5486"
@@ -69,15 +71,16 @@ const page = () => {
         client="Happy Clients"
         subtitle2="Contact us"
         title2="Book and Appointment"
-      ></Contact1>
+      ></Contact1> */}
+      <Process></Process>
       <Testimonial2
         subtitle="Testimonial"
         title="What our clients say <br> About Us"
         bgImg="/assets/img/testimonial_bg_1.jpg"
       ></Testimonial2>
       {/* <Pricing1></Pricing1> */}
-      <Process></Process>
-      <Blog3></Blog3>
+
+      {/* <Blog3></Blog3> */}
     </div>
   );
 };
