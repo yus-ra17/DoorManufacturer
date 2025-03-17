@@ -11,6 +11,7 @@ import Pricing1 from "../Components/Pricing/Pricing1";
 import Process from "../Components/Process/Process";
 import Blog3 from "../Components/Blog/Blog3";
 import HeroBanner2 from "../Components/HeroBanner/HeroBanner2";
+import Testimonial2 from "../Components/Testimonial/Testimonial2"
 
 const page = () => {
   return (
@@ -38,7 +39,7 @@ const page = () => {
         name="Ronald Richards"
         designation="Founder CEO"
       ></About1>
-      <Services1></Services1>
+      {/* <Services1></Services1> */}
       <Choose1
         img1="/assets/img/feature_img_1.jpg"
         content="Squeaking, grinding noises, or a spongy brake pedal are car common indicators that your brakes need attention Slow an  engine cranking."
@@ -69,11 +70,11 @@ const page = () => {
         subtitle2="Contact us"
         title2="Book and Appointment"
       ></Contact1>
-      <Testimonial1
+      <Testimonial2
         subtitle="Testimonial"
         title="What our clients say <br> About Us"
         bgImg="/assets/img/testimonial_bg_1.jpg"
-      ></Testimonial1>
+      ></Testimonial2>
       {/* <Pricing1></Pricing1> */}
       <Process></Process>
       <Blog3></Blog3>

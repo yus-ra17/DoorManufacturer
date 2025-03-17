@@ -2,16 +2,16 @@
   {
     "img": "/assets/img/service_img_1.jpg",
     "icon": "/assets/img/icons/service_icon_1.svg",
-    "title": " Safety Inspection",
-    "desc": "If your door is becoming difficult to open, showing signs of wear, or struggling to lock properly, it may be time for a safety inspection.",
+    "title": "Sustainability Commitment",
+    "desc": "Eco-Friendly Practices: We are dedicated to sustainable manufacturing processes, using recycled, environmentally friendly materials.",
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
     "img": "/assets/img/service_img_2.jpg",
     "icon": "/assets/img/icons/service_icon_2.svg",
-    "title": " Insulation & Protection",
-    "desc": "Proper insulation and sealing are essential for energy efficiency. We also offer weatherproofing services to prevent damage from harsh conditions, ensuring your door stays in top condition.",
+    "title": " Customization Options",
+    "desc": "We offer custom and unique designs for a personal touch.Design Choices: Choose from a variety of colors, finishes, and sizes to match your unique style.",
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
@@ -42,8 +42,8 @@
   {
     "img": "/assets/img/service_img_6.jpg",
     "icon": "/assets/img/icons/service_icon_2.svg",
-    "title": "Security System Check",
-    "desc": "If your entryway mechanism shows signs of wear or is difficult to operate, it's best to schedule a diagnostic service promptly to identify and address potential issues.",
+    "title": "Delivery Options & Installation Services",
+    "desc": "Enjoy reliable delivery services with professional installation Our skilled team ensures a smooth installation process with quality workmanship.",
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   }

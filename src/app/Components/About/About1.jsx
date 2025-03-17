@@ -37,9 +37,7 @@ const About1 = ({
               </div>
               <div className="cs_esperience_text position-absolute">
                 <h2 className="cs_experience_title mb-0">
-                  <span className="cs_fs_100 cs_black cs_accent_color">
-                    {expNumber}
-                  </span>
+                  <span className="cs_fs_100 cs_black cs_accent_color">5</span>
                   <span className="cs_fs_50">{expYers}</span>
                   <span className="cs_fs_50 cs_accent_color">{expTitle}</span>
                 </h2>
