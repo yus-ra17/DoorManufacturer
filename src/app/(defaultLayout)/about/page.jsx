@@ -35,10 +35,10 @@ const page = () => {
         name="Ronald Richards"
         designation="Founder CEO"
       ></About1>
-      <Testimonial2></Testimonial2>
+      {/* <Testimonial2></Testimonial2>
       <Brand1></Brand1>
       <Process2></Process2>
-      <Team1></Team1>
+      <Team1></Team1> */}
     </div>
   );
 };

@@ -91,7 +91,7 @@ export default function Header1({ variant }) {
                 <div className="cs_logo_wrap">
                   <Link className="cs_site_branding" href="/">
                     <Image
-                      src="/assets/img/charot.svg"
+                      src="/assets/img/logo.png"
                       alt="img"
                       width={225}
                       height={65}

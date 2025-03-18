@@ -13,6 +13,8 @@ import Blog3 from "../Components/Blog/Blog3";
 import HeroBanner2 from "../Components/HeroBanner/HeroBanner2";
 import Testimonial2 from "../Components/Testimonial/Testimonial2";
 import AboutCompany from "../Components/AboutCompany/AboutCompany";
+import IdealCustomers from "../Components/IdealCustomers/IdealCustomers";
+import Faq1 from "../Components/Faq/Faq1";
 
 const page = () => {
   return (
@@ -73,11 +75,13 @@ const page = () => {
         title2="Book and Appointment"
       ></Contact1> */}
       <Process></Process>
+      <IdealCustomers></IdealCustomers>
       <Testimonial2
         subtitle="Testimonial"
         title="What our clients say <br> About Us"
         bgImg="/assets/img/testimonial_bg_1.jpg"
       ></Testimonial2>
+      <Faq1></Faq1>
       {/* <Pricing1></Pricing1> */}
 
       {/* <Blog3></Blog3> */}
