@@ -6,7 +6,8 @@ const page = () => {
     return (
         <div>
              <BreadCumb
-                bgImg="/assets/img/page_heading_1.jpg"
+                // bgImg="/assets/img/page_heading_1.jpg"
+                bgImg="/assets/img/doornew.jpg"
                 Title="Blog"
             ></BreadCumb>  
             <Blog1></Blog1>             

@@ -23,31 +23,31 @@ const Testimonial2 = () => {
                 <div className={`cs_tab ${isActive === 'tab1' ? 'active' : ''}`} >
                     <TestimonialCard
                         img="/assets/img/avatar_7.png"
-                        name="Austin Symphia"
-                        designation="Business Lady"
+                        name=""
+                        designation="Business Owner"
                         subtile="Testimonial"
                         title="Clients say About Us"
-                        content="Signs include unexplained increases in water bills,the sound of running water when no also fixtures are in use problems or anything damp or moldy kind spots on walls or ceilings, and  involving gas lines or major repairs on most services"
+                        content="Charot Door Manufacturer exceeded my expectations! Their eco-friendly doors are durable, stylish, and energy-efficient. Highly recommended for quality craftsmanship and sustainability."
                     ></TestimonialCard>
                 </div>
                 <div className={`cs_tab ${isActive === 'tab2' ? 'active' : ''}`} >
                 <TestimonialCard
                         img="/assets/img/avatar_4.png"
-                        name="Sophiya Mallinson"
-                        designation="Business Woman"
+                        name=""
+                        designation="Home Builder"
                         subtile="Testimonial"
-                        title="Clients say About Us"
-                        content="Signs include unexplained increases in water bills, and the sound of running water when no also fixtures are in use problems or anything involving gas lines or major repairs on most services damp or moldy kind spots on walls or ceilings"
+                        title="Reliable & Sustainable"
+                        content="The best doors I’ve ever installed! Charot’s craftsmanship and attention to sustainability make them my top choice for every project."
                     ></TestimonialCard>
                 </div>
                 <div className={`cs_tab ${isActive === 'tab3' ? 'active' : ''}`} >
                 <TestimonialCard
                         img="/assets/img/avatar_8.png"
-                        name="Cameron Williamson"
-                        designation="Business Man"
+                        name=""
+                        designation="Interior Designer"
                         subtile="Testimonial"
-                        title="Clients say About Us"
-                        content="Signs include unexplained increases in water bills, damp or moldy kind spots on walls or ceilings, and the sound of running water when no also fixtures are in use problems or anything involving gas lines or major repairs on most services"
+                        title="Elegant & High-Quality"
+                        content="Charot doors add elegance and durability to any space. Their eco-conscious approach makes them a perfect choice for modern homes."
                     ></TestimonialCard>
                 </div>
               </div>

@@ -17,7 +17,7 @@ const Blog1 = () => {
                 </Link>
                 <div className="cs_post_content_wrapper">
                   <div className="cs_post_content">
-                    <div className="cs_post_meta_wrapper cs_mb_11">
+                    {/* <div className="cs_post_meta_wrapper cs_mb_11">
                       <div className="cs_post_meta">
                         <span className="cs_accent_color"><i className="bi bi-chat-dots"></i></span>
                         <span className="cs_heading_color">02 Comments</span>
@@ -26,12 +26,12 @@ const Blog1 = () => {
                         <span className="cs_accent_color"><i className="bi bi-people"></i></span>
                         <span className="cs_heading_color">Admin</span>
                       </div>
-                    </div>
+                    </div> */}
                     <h3 className="cs_fs_20 cs_semibold cs_mb_5"><Link href="/blog/blog-details"> {item.title}</Link></h3>
-                    <p className="cs_mb_15">{item.desc}</p>
-                    <Link href="/blog/blog-details" className="cs_text_btn cs_style_1 cs_white_bg cs_accent_color">
+                    {/* <p className="cs_mb_15">{item.desc}</p> */}
+                    {/* <Link href="/blog/blog-details" className="cs_text_btn cs_style_1 cs_white_bg cs_accent_color">
                     <i className="bi bi-arrow-right"></i>    
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
