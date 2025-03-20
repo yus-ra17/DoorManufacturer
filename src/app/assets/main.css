@@ -69,6 +69,10 @@ h6 {
   line-height: 1.2em;
   font-family: var(--heading-font);
 }
+.bg-brown {
+  background-color: #8B4513 !important; /* SaddleBrown */
+  color: white !important;
+}
 
 .cs_heading_font {
   font-family: var(--heading-font);
