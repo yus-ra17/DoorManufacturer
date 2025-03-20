@@ -1,5 +1,6 @@
 {
-  "/(defaultLayout)/about/page": "app/(defaultLayout)/about/page.js",
   "/(defaultLayout)/project/page": "app/(defaultLayout)/project/page.js",
+  "/(defaultLayout)/service/page": "app/(defaultLayout)/service/page.js",
+  "/(defaultLayout)/about/page": "app/(defaultLayout)/about/page.js",
   "/(defaultLayout)/page": "app/(defaultLayout)/page.js"
 }
