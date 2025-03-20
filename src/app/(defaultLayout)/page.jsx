@@ -1,20 +1,17 @@
 import React from "react";
 import HeroBanner1 from "../Components/HeroBanner/HeroBanner1";
 import About1 from "../Components/About/About1";
-import Services1 from "../Components/Services/Services1";
+
 import Choose1 from "../Components/Choose/Choose1";
 import BeforeAfter from "../Components/BeforeAfter/BeforeAfter";
-import Project1 from "../Components/Project/Project1";
-import Contact1 from "../Components/ContactInfo/Contact1";
-import Testimonial1 from "../Components/Testimonial/Testimonial1";
-import Pricing1 from "../Components/Pricing/Pricing1";
+
 import Process from "../Components/Process/Process";
-import Blog3 from "../Components/Blog/Blog3";
-import HeroBanner2 from "../Components/HeroBanner/HeroBanner2";
+
 import Testimonial2 from "../Components/Testimonial/Testimonial2";
 import AboutCompany from "../Components/AboutCompany/AboutCompany";
 import IdealCustomers from "../Components/IdealCustomers/IdealCustomers";
 import Faq1 from "../Components/Faq/Faq1";
+import Productgallery from "../Components/Productgallery/Productgallery";
 
 const page = () => {
   return (
@@ -61,21 +58,10 @@ const page = () => {
         afterImg="/assets/img/beforDoor.jpg"
         beforeTitle="Before"
       ></BeforeAfter>
-      {/* <Project1></Project1> */}
-      {/* <Contact1
-        Title="Contact Information"
-        subTitle="It is a long established fact that a reader be by the readable distracted  layout."
-        address="2972 Westheimer Rd. <br/>Santa Ana, Illinois 5486"
-        email="Cripar@gmail.com <br/>InfoCripar@gmal.com"
-        number="(402) 4521 5458 44 <br/> (123) 2154 5464 55"
-        clientNumber="5,400"
-        img="/assets/img/contact_img_1.jpg"
-        client="Happy Clients"
-        subtitle2="Contact us"
-        title2="Book and Appointment"
-      ></Contact1> */}
       <Process></Process>
       <IdealCustomers></IdealCustomers>
+      <Productgallery></Productgallery>
+
       <Testimonial2
         subtitle="Testimonial"
         title="What our clients say <br> About Us"
@@ -84,7 +70,6 @@ const page = () => {
       <Faq1></Faq1>
       {/* <Pricing1></Pricing1> */}
 
-      {/* <Blog3></Blog3> */}
     </div>
   );
 };

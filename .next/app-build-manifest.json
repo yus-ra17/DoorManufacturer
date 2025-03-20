@@ -14,12 +14,18 @@
     "/(defaultLayout)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/(defaultLayout)/page.css",
       "static/chunks/app/(defaultLayout)/page.js"
     ],
     "/(defaultLayout)/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(defaultLayout)/about/page.js"
+    ],
+    "/(defaultLayout)/project/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(defaultLayout)/project/page.js"
     ]
   }
 }
