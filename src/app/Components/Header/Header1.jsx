@@ -37,21 +37,22 @@ export default function Header1({ variant }) {
           mobileToggle ? "cs_mobile_toggle_active" : ""
         } ${isSticky ? isSticky : ""}`}
       >
-        <div className="cs_top_header">
+        <div className="cs_top_header bg-brown">
           <div className="container-fluid">
             <div className="cs_top_header_in">
               <div className="cs_top_header_left">
                 <ul className="cs_header_contact_list cs_mp_0">
                   <li>
-                    <i className="bi bi-telephone-fill"></i>
+                  <i className="bi bi-telephone-fill text-light"></i>
+
                     <a href="tel:+111(564)56825">+251908686868</a>
                   </li>
                   <li>
-                    <i className="bi bi-envelope-fill"></i>
+                    <i className="bi bi-envelope-fill  text-light"></i>
                     <a href="mailto:cripar@gmail.com">info.charot@gmail.com</a>
                   </li>
                   <li>
-                    <i className="bi bi-geo-alt-fill"></i>
+                    <i className="bi bi-geo-alt-fill text-light"></i>
                     <span>Addis Ababa - Ethiopia</span>
                   </li>
                 </ul>
@@ -109,21 +110,13 @@ export default function Header1({ variant }) {
                         d="M74 0H487L508.5 70.5L473.5 141H74V0Z"
                         fill="currentColor"
                       />
-                      <path
-                        d="M54 141H472.5L488.5 70.5L443.5 0H54V141Z"
-                        fill="white"
-                      />
+                     
                       <path
                         d="M0 0H443L464.5 70.5L443 141H0V0Z"
                         fill="currentColor"
                       />
                     </svg>
-                    <Image
-                      src="/assets/img/logo_shape_pattern.svg"
-                      alt="img"
-                      width={412}
-                      height={141}
-                    />
+                   
                   </div>
                 </div>
               </div>
