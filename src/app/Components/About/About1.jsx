@@ -36,11 +36,18 @@ const About1 = ({
                 <Image src={img3} alt="img" width={323} height={231} />
               </div>
               <div className="cs_esperience_text position-absolute">
-                <h2 className="cs_experience_title mb-0">
+                {/* <h2 className="cs_experience_title mb-0">
                   <span className="cs_fs_100 cs_black cs_accent_color">5</span>
                   <span className="cs_fs_50">{expYers}</span>
                   <span className="cs_fs_50 cs_accent_color">{expTitle}</span>
-                </h2>
+                </h2> */}
+   <Image
+                  src="/assets/img/shapes/ecofrnd.png"
+                  alt="img"
+                  width={224}
+                  height={224}
+                />
+                
               </div>
               <a className="cs_phone_call cs_heading_color">
                 <div className="cs_phone_icon cs_fs_24 cs_accent_color cs_center cs_radius_50">
@@ -52,7 +59,7 @@ const About1 = ({
               </a>
               <div className="cs_about_shape_1 position-absolute">
                 <Image
-                  src="/assets/img/shapes/gear_2.svg"
+                  src="/assets/img/shapes/gear_2.png"
                   alt="img"
                   width={95}
                   height={95}
@@ -60,7 +67,7 @@ const About1 = ({
               </div>
               <div className="cs_about_shape_2 position-absolute">
                 <Image
-                  src="/assets/img/shapes/gear_1.svg"
+                  src="/assets/img/shapes/gear_1.png"
                   alt="img"
                   width={274}
                   height={274}
@@ -137,7 +144,7 @@ const About1 = ({
                   <span>Read more</span>
                   <i className="bi bi-arrow-right"></i>
                 </Link>
-                <div className="cs_avatar cs_style_1 wow fadeInRight">
+                {/* <div className="cs_avatar cs_style_1 wow fadeInRight">
                   <div className="cs_avatar_thumbnail cs_center cs_radius_50">
                     <Image src={avatar} alt="img" width={48} height={48} />
                   </div>
@@ -147,7 +154,7 @@ const About1 = ({
                     </h3>
                     <p className="cs_fs_14 mb-0">{designation}</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

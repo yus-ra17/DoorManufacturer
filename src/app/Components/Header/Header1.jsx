@@ -139,7 +139,7 @@ export default function Header1({ variant }) {
               <div className="cs_main_header_right">
                 <div className="solutek-btn2">
                   <Link href="/contact" className="cs_btn cs_style_1">
-                    <span>Get in Touch</span>
+                    <span>Contact Us</span>
                     <i className="bi bi-arrow-right"></i>
                   </Link>
                 </div>

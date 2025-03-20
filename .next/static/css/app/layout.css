@@ -6334,7 +6334,7 @@ textarea {
   content: "";
   width: 60%;
   height: 40%;
-  background-color: #bd0528;
+  background-color: #8B4513;
   -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
           clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
   position: absolute;
