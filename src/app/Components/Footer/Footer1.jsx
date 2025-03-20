@@ -3,117 +3,118 @@ import Link from "next/link";
 
 const Footer1 = () => {
   return (
-    <footer
-      className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg"
-      data-src="assets/img/footer_bg.jpg"
-    >
-      <div className="cs_main_footer cs_white_color">
+    <footer className="cs_footer cs_style_1 text-white" style={{ backgroundColor: '#02801E' }}>
+      <div className="cs_main_footer py-5">
         <div className="container">
-          <div className="cs_footer_row">
-            <div className="cs_footer_col">
+          <div className="row g-4">
+            {/* About Column */}
+            <div className="col-md-6 col-lg-3">
               <div className="cs_footer_widget">
-                <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">
-                  About
-                </h2>
-                <div className="cs_footer_widget_seperator">
-                  <span className="cs_accent_bg"></span>
-                  <span className="cs_white_bg"></span>
-                  <span className="cs_white_bg"></span>
+                <Link href="/" className="d-block mb-3">
+                  <Image 
+                    src="/assets/img/logo.png" 
+                    alt="Charot Doors Logo"
+                    width={150}
+                    height={40}
+                    className="img-fluid"
+                  />
+                </Link>
+                <h2 className="h5 mb-3 fw-semibold">About</h2>
+                <div className="mb-3">
+                  <span className="d-inline-block bg-warning me-1" style={{width: "30px", height: "2px"}}></span>
+                  <span className="d-inline-block bg-white me-1" style={{width: "15px", height: "2px"}}></span>
+                  <span className="d-inline-block bg-white" style={{width: "15px", height: "2px"}}></span>
                 </div>
-                <div className="cs_text_widget">
-                  <p>
-                    At Charoteco Doors, we specialize in crafting high-quality,
-                    eco-friendly doors that blend durability, style, and
-                    sustainability. Our doors are designed to enhance homes and
-                    commercial spaces while promoting a greener future.
-                  </p>
+                <p className="mb-4 small">
+                  At Charoteco Doors, we specialize in crafting high-quality,
+                  eco-friendly doors that blend durability, style, and
+                  sustainability.
+                </p>
+                <div className="d-flex gap-2">
+                  <a href="#" className="text-white text-decoration-none">
+                    <i className="bi bi-telegram fs-6"></i>
+                  </a>
+                  <a href="#" className="text-white text-decoration-none">
+                    <i className="bi bi-tiktok fs-6"></i>
+                  </a>
+                  <a href="#" className="text-white text-decoration-none">
+                    <i className="bi bi-whatsapp fs-6"></i>
+                  </a>
+                  <a href="#" className="text-white text-decoration-none">
+                    <i className="bi bi-facebook fs-6"></i>
+                  </a>
                 </div>
               </div>
             </div>
-            <div className="cs_footer_col">
+
+            {/* Explore Column */}
+            <div className="col-md-6 col-lg-3">
               <div className="cs_footer_widget">
-                <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">
-                  Explore
-                </h2>
-                <div className="cs_footer_widget_seperator">
-                  <span className="cs_accent_bg"></span>
-                  <span className="cs_white_bg"></span>
-                  <span className="cs_white_bg"></span>
+                <h2 className="h5 mb-3 fw-semibold">Explore</h2>
+                <div className="mb-3">
+                  <span className="d-inline-block bg-warning me-1" style={{width: "30px", height: "2px"}}></span>
+                  <span className="d-inline-block bg-white me-1" style={{width: "15px", height: "2px"}}></span>
+                  <span className="d-inline-block bg-white" style={{width: "15px", height: "2px"}}></span>
                 </div>
-                <ul className="cs_footer_menu">
-                  <li>
-                    <Link href="/service/service-details">High Durability</Link>
-                  </li>
-                  <li>
-                    <Link href="/service/service-details"> Eco-Friendly</Link>
-                  </li>
-                  <li>
-                    <Link href="/service/service-details">
-                      Waterproof & Fire Retardant
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service/service-details">Soundproof</Link>
-                  </li>
-                  <li>
-                    <Link href="/service/service-details">
-                      Termite & Rot Resistant{" "}
-                    </Link>
-                  </li>
+                <ul className="list-unstyled small">
+                  <li className="mb-2"><Link href="#" className="text-white text-decoration-none">High Durability</Link></li>
+                  <li className="mb-2"><Link href="#" className="text-white text-decoration-none">Eco-Friendly</Link></li>
+                  <li className="mb-2"><Link href="#" className="text-white text-decoration-none">Waterproof & Fire Retardant</Link></li>
+                  <li className="mb-2"><Link href="#" className="text-white text-decoration-none">Soundproof</Link></li>
+                  <li><Link href="#" className="text-white text-decoration-none">Termite & Rot Resistant</Link></li>
                 </ul>
               </div>
             </div>
-            <div className="cs_footer_col">
+
+            {/* Contact Column */}
+            <div className="col-md-6 col-lg-3">
               <div className="cs_footer_widget">
-                <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">
-                  Contact Us
-                </h2>
-                <div className="cs_footer_widget_seperator">
-                  <span className="cs_accent_bg"></span>
-                  <span className="cs_white_bg"></span>
-                  <span className="cs_white_bg"></span>
+                <h2 className="h5 mb-3 fw-semibold">Contact Us</h2>
+                <div className="mb-3">
+                  <span className="d-inline-block bg-warning me-1" style={{width: "30px", height: "2px"}}></span>
+                  <span className="d-inline-block bg-white me-1" style={{width: "15px", height: "2px"}}></span>
+                  <span className="d-inline-block bg-white" style={{width: "15px", height: "2px"}}></span>
                 </div>
-                <ul className="cs_footer_contact_list cs_mp_0">
-                  <li>
-                    <i className="bi bi-geo-alt-fill"></i>
+                <ul className="list-unstyled small">
+                  <li className="mb-3">
+                    <i className="bi bi-geo-alt-fill me-2"></i>
                     Lebu, Foziyana bldg, 4th floor Addis Ababa, Ethiopia
                   </li>
-                  <li>
-                    <i className="bi bi-telephone-fill"></i>
-                    <a href="tel:+251-90-868-6868">+251-90-868-6868</a> <br />
-                    <a href="tel:+251-90-867-6767">+251-90-867-6767</a>
+                  <li className="mb-3">
+                    <i className="bi bi-telephone-fill me-2"></i>
+                    <a href="tel:+251-90-868-6868" className="text-white text-decoration-none">+251-90-868-6868</a>
                   </li>
                   <li>
-                    <i className="bi bi-envelope-fill"></i>
-                    <a href="mailto:info.charot@gmail.com">
+                    <i className="bi bi-envelope-fill me-2"></i>
+                    <a href="mailto:info.charot@gmail.com" className="text-white text-decoration-none">
                       info.charot@gmail.com
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="cs_footer_col">
+
+            {/* Hours Column */}
+            <div className="col-md-6 col-lg-3">
               <div className="cs_footer_widget">
-                <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">
-                  Working Hours:
-                </h2>
-                <div className="cs_footer_widget_seperator">
-                  <span className="cs_accent_bg"></span>
-                  <span className="cs_white_bg"></span>
-                  <span className="cs_white_bg"></span>
+                <h2 className="h5 mb-3 fw-semibold">Working Hours</h2>
+                <div className="mb-3">
+                  <span className="d-inline-block bg-warning me-1" style={{width: "30px", height: "2px"}}></span>
+                  <span className="d-inline-block bg-white me-1" style={{width: "15px", height: "2px"}}></span>
+                  <span className="d-inline-block bg-white" style={{width: "15px", height: "2px"}}></span>
                 </div>
-                <ul className="cs_working_hours">
-                  <li>
+                <ul className="list-unstyled small">
+                  <li className="d-flex justify-content-between mb-2">
                     <span>Mon - Fri</span>
                     <span>2:30 AM - 12:00 PM</span>
                   </li>
-                  <li>
+                  <li className="d-flex justify-content-between mb-2">
                     <span>Saturday</span>
                     <span>2:30 AM - 10:00 PM</span>
                   </li>
-                  <li>
+                  <li className="d-flex justify-content-between">
                     <span>Sunday</span>
-                    <span>Close</span>
+                    <span>Closed</span>
                   </li>
                 </ul>
               </div>
@@ -121,13 +122,11 @@ const Footer1 = () => {
           </div>
         </div>
       </div>
-      <div className="cs_footer_bottom cs_white_color">
+      
+      <div className="cs_footer_bottom py-3" style={{ backgroundColor: '#8B4513' }}>
         <div className="container">
-          <div className="cs_footer_bottom_in">
-            <div className="cs_footer_copyright">
-              Copyright © {new Date().getFullYear()}{" "}
-              <a href="#">charotecodoors</a>. All Rights Reserved.
-            </div>
+          <div className="text-center small">
+            Copyright © {new Date().getFullYear()} charotecodoors. All Rights Reserved.
           </div>
         </div>
       </div>

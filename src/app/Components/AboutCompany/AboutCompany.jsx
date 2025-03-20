@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import "./style.css";
 import {
   Container,
   Row,
@@ -41,7 +40,7 @@ const CompanyProfile = () => {
     {
       icon: "./fire.jpg",
       title: "Fire Safe",
-      desc: "Built with fire-retardant materials to enhance safety and prevent fire spread.",
+      desc: "Built with fire retardant materials to enhance safety and prevent fire spread.",
     },
     {
       icon: "./Durable.jpg",
@@ -78,7 +77,7 @@ const CompanyProfile = () => {
           <Row className="mb-5 text-center">
             <Col lg={8} className="mx-auto">
               <h1 className="display-4 fw-bold text-success mb-3">
-                🌿 Charoteco Doors
+                🌿 Charot Eco Doors
               </h1>
               <p className="lead text-muted mb-4">
                 Pioneering Sustainable Entry Solutions Since 2016
@@ -91,18 +90,18 @@ const CompanyProfile = () => {
           {features.slice(0, 6).map((features, i) => (
             <div key={i} className="col-lg-4">
               <div className="cs_post cs_style_1">
-                <Link href="/blog/blog-details" className="cs_post_thumbnail">
+               
                   <Image
                     src={features.icon}
                     alt="img"
                     width={412}
                     height={266}
                   />
-                </Link>
+             
                 <div className="cs_post_content_wrapper position-relative">
                   <div className="cs_post_content cs_white_bg">
                     <h3 className="cs_fs_20 cs_semibold cs_mb_5">
-                      <Link href="/blog/blog-details">{features.title}</Link>
+                      {features.title}
                     </h3>
                     <p className="cs_mb_19">{features.desc}</p>
                   </div>

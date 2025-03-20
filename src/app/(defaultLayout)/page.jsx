@@ -22,7 +22,7 @@ const page = () => {
       <HeroBanner1></HeroBanner1>
       <About1
         img1="/assets/img/about_img_1.jpg"
-        img2="/assets/img/about_img_2.jpg"
+        img2="/assets/img/L54A8476.JPG"
         img3="/assets/img/about_img_3.jpg"
         expNumber="58"
         expYers="Years"
@@ -32,7 +32,7 @@ const page = () => {
         Title="Precision Craft, Timely Delivery"
         Content="We are professional and committed to delivering high-quality doors with precision and efficiency, ensuring the best results for every project."
         feature1="Custom Door Solutions"
-        feature2="Durable, Secure Door Installations"
+        feature2="Durable & Secure Doors"
         listItem={[
           "Crafting Doors that Stand the Test of Time",
           "Comprehensive Door Services",
