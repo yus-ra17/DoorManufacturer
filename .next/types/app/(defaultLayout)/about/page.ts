@@ -1,4 +1,4 @@
-// File: C:\Users\HP\Documents\GitHub\DoorManufacturer\src\app\(defaultLayout)\about\page.jsx
+// File: C:\Users\HP\Documents\GitHub\DoorManufacturer2\src\app\(defaultLayout)\about\page.jsx
 import * as entry from '../../../../../src/app/(defaultLayout)/about/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
