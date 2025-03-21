@@ -15,12 +15,11 @@ const Project3 = () => {
                 </div>
                 <div className="cs_card_info_wrapper cs_heading_bg position-absolute">
                 <div className="cs_portfolio_text">
-                    <h3 className="cs_fs_20 cs_semibold cs_white_color mb-0"><Link href="/project/project-details">{item.title}</Link></h3>
-                    <p className="cs_white_color mb-0">{item.desc}</p>
+                    <h3 className="cs_fs_20 cs_semibold cs_white_color mb-0">{item.title}</h3>
                 </div>
-                <Link href="/project/project-details" className="cs_text_btn cs_style_1 cs_bold cs_white_color cs_accent_bg">
+                <div className="cs_text_btn cs_style_1 cs_bold cs_white_color cs_accent_bg">
                 <Image src="/assets/img/icons/arrow_long.svg" alt="img" width={23} height={24}   />
-                </Link>
+                </div>
                 </div>
             </div>
             ))}

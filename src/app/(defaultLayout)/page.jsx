@@ -11,7 +11,8 @@ import Testimonial2 from "../Components/Testimonial/Testimonial2";
 import AboutCompany from "../Components/AboutCompany/AboutCompany";
 import IdealCustomers from "../Components/IdealCustomers/IdealCustomers";
 import Faq1 from "../Components/Faq/Faq1";
-import Productgallery from "../Components/Productgallery/Productgallery";
+import 'aos/dist/aos.css';
+import ProductGalleryPage from "../Components/products/page";
 
 const page = () => {
   return (
@@ -60,7 +61,7 @@ const page = () => {
       ></BeforeAfter>
       <Process></Process>
       <IdealCustomers></IdealCustomers>
-      <Productgallery></Productgallery>
+      <ProductGalleryPage></ProductGalleryPage>
 
       <Testimonial2
         subtitle="Testimonial"
