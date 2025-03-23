@@ -22,10 +22,6 @@ const page = () => {
         img1="/assets/img/about_img_1.jpg"
         img2="/assets/img/L54A8476.JPG"
         img3="/assets/img/about_img_3.jpg"
-        expNumber="58"
-        expYers="Years"
-        expTitle="Experience"
-        number="(208) 555-0112"
         subTitle="Our About"
         Title="Precision Craft, Timely Delivery"
         Content="We are professional and committed to delivering high-quality doors with precision and efficiency, ensuring the best results for every project."
@@ -36,9 +32,6 @@ const page = () => {
           "Comprehensive Door Services",
           "We Understand Every Detail of Your Door Needs",
         ]}
-        avatar="/assets/img/avatar_1.png"
-        name="Ronald Richards"
-        designation="Founder CEO"
       ></About1>
       {/* <Services1></Services1> */}
       <Choose1
